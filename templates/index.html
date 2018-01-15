@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      body {
+        background: #{{ hex_val }} 
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Enter Color Values Below:</h1>
+    <form action='/color_change' method='POST'>
+      Red: <input type="text" name='red'>
+      Green: <input type="text" name='green'>
+      Blue: <input type="text" name='blue'>
+      <input type="submit">
+      <p>Please pick a number between 1 and 255!</p>
+    </form>
+
+
+  </body>
+</html>
